@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARAS-مَراس</title>
+    <style>
+        /* Style for header and image */
+        h1 {
+            display: flex;
+            align-items: center; /* Align the image and text vertically */
+        }
+        h1 img {
+            width: 50px; /* Adjust the size of the image */
+            height: auto; /* Maintain the aspect ratio */
+            margin-right: 10px; /* Space between the image and text */
+        }
+
+        /* Style for header layout */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Style for search section on the right */
+        .search-section {
+            margin-top: 20px;
+            text-align: center;
+            width: 300px;
+        }
+
+        .search-section input {
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .search-section button {
+            padding: 10px;
+            margin-left: 10px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .search-section button:hover {
+            background-color: #45a049;
+        }
+
+        /* Style for trainers section */
+        .trainers-section {
+            margin-top: 40px;
+        }
+        .trainer {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .trainer img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .trainer-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .trainer-info h3 {
+            margin: 0;
+            font-size: 20px;
+        }
+        .trainer-info p {
+            margin: 5px 0;
+        }
+        /* Style for How to Apply section */
+        .apply-section {
+            margin-top: 40px;
+        }
+        .apply-section h2 {
+            margin-bottom: 15px;
+        }
+        .apply-section p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="MARAS.png" alt="MARAS-مَراس logo">
+            <b>MARAS-مَراس</b>
+        </h1>
+
+        <!-- Search Section -->
+        <section class="search-section">
+            <h2>Search Courses</h2>
+            <form action="search_results.html" method="get">
+                <input type="text" name="search" placeholder="Search for courses..." required>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+    </header>
+
+    <h2>Media Training Hub</h2>
+    <p>Welcome to our Media Training Hub, where theory meets practice. Our platform is designed to bridge the gap between media concepts and real-world application, providing both foundational knowledge and hands-on experience.</p>
+    
+    <p>Whether you are an aspiring journalist, content creator, or media professional, you will find engaging courses that not only explain the key theories behind media and communication but also immerse you in practical training.</p>
+    <p>Let’s transform your theoretical understanding into real-world expertise!</p>
+
+
+    <!-- Trainers Section -->
+    <section class="trainers-section">
+        <h2>Meet Our Trainers</h2>
+        
+        <!-- Trainer Shaimaa -->
+        <div class="trainer">
+            <img src="shaimaa.jpg" alt="Shaimaa">
+            <div class="trainer-info">
+                <h3>Shaimaa</h3>
+                <p>Journalist</p>
+                <p>Shaimaa is a seasoned journalist with extensive experience in media coverage and investigative reporting.</p>
+            </div>
+        </div>
+
+        <!-- Trainer Saleh -->
+        <div class="trainer">
+            <img src="SALEH.jpg" alt="Saleh">
+            <div class="trainer-info">
+                <h3>Saleh</h3>
+                <p>Designer</p>
+                <p>Saleh is a creative designer who specializes in digital media and graphic design, helping brands stand out visually.</p>
+            </div>
+        </div>
+
+        <!-- Trainer Mohamed -->
+        <div class="trainer">
+            <img src="mohamed.png" alt="Mohamed">
+            <div class="trainer-info">
+                <h3>Mohamed</h3>
+                <p>Video Editor</p>
+                <p>Mohamed has an eye for detail and brings stories to life through expert video editing techniques, making content engaging.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Apply Section -->
+    <section class="apply-section">
+        <h2>How to Apply</h2>
+        <p>Applying for our courses is simple and straightforward. Follow these steps:</p>
+        <ol>
+            <li>Visit our <b>Course Catalog</b> and select the course you're interested in.</li>
+            <li>Fill out the online application form with your personal details and professional background.</li>
+            <li>Submit your application and wait for a confirmation email with further instructions.</li>
+            <li>If accepted, you will receive access to course materials and login credentials.</li>
+        </ol>
+        <p>We look forward to having you on board and helping you enhance your skills!</p>
+    </section>
+    <header>
+      <section>
+          <h2>About MARAS-مَراس</h2>
+          <p>This is the section about MARAS-مَراس.</p>
+      </section>
+      <section>
+          <h2>Contact</h2>
+          <p>You can contact us at email@MARAS.com</p>
+      </section>
+  </header>
+
+    <footer>
+        <p>&copy; 2025 Media Training Hub</p>
+    </footer>
+</body>
+</html>
